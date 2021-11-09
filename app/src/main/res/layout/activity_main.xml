@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="29dp"
+        android:text="@string/bienvenido"
+        android:textSize="28sp"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/firstpage"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ingresenombre"
+        android:layout_width="350dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:text="Ingrese su nombre"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Carl"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/ingresecorreo"
+        android:layout_width="350dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:text="Ingrese su correo"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/correo"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="example@correo.com"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/ingresedni"
+        android:layout_width="350dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:text="Ingrese su DNI"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/dni"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="01234567"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/continuar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_border"
+        android:text="@string/string_continuar"
+        android:textColor="#040404"
+        android:onClick="Continuar"/>
+
+    <Button
+        android:id="@+id/sinregistrar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_border"
+        android:text="Sin Registrar"
+        android:textColor="#040404"
+        android:onClick="SinRegistrar"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

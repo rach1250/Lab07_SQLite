@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LAB06_IDNP_SP</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_map">Ubicación</string>
+    <string name="title_profile">Perfil</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="string_continuar">continuar</string>
+</resources>
